@@ -69,4 +69,4 @@ prediction = model.predict(input_lda)
 prediction_label = label_encoder.inverse_transform(prediction)[0]
 
 st.subheader("Tahmin Edilen Ruhsal Sağlık Riski:")
-st.write(f"👉 **{prediction_label}**")
+st.write(f"**{prediction_label}**")
